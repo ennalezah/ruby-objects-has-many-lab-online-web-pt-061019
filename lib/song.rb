@@ -18,6 +18,6 @@ class Song
     #   self.artist = artist.name
     # end
     
-    @artist == nil ? nil : self.artist = artist.name
+    if @artist == nil ? nil : self.artist = artist.name
   end
 end 
