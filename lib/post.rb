@@ -18,6 +18,6 @@ class Post
     #   self.author = author.name
     # end
     
-    if @author == nil ? nil : self.author = author.name
+    @author == nil ? nil : self.author = author.name
   end
 end
