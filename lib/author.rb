@@ -9,7 +9,8 @@ class Author
     posts = []
   end
   
-  def add_post 
-    
+  def add_post(name)
+    post = Post.new(name)
+    post.author = self
   end
 end
