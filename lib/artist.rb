@@ -1,6 +1,6 @@
 class Artist 
   attr_accessor :name, :songs
-  @@collection = {}
+  @@counter = 0
   
   def initialize(name)
     @name = name
